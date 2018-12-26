@@ -1,0 +1,23 @@
+body {
+	
+}
+
+#main_logo {
+	width: 45px;
+	height: 45px;
+}
+
+
+.instruments {
+	width: 37px;
+	height: 37px;
+}
+
+#drum {
+	width: 40px;
+	height: 40px;
+}
+
+.card-img-top {
+	height: 350px;
+}
