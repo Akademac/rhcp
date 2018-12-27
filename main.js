@@ -1,15 +1,33 @@
-let x = 'https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=rainbow';	
-		let request = new XMLHttpRequest();
-
-		request.open('GET', x, {
-			dataType: 'josnp',
-			cors: true
-		});
-		
-		request.onload = function(data) {
-			console.log(data);
-		};
-
-		request.send(); 
 
 
+let btnR = document.querySelector('.glyphicon-arrow-right');
+let btnL = document.querySelector('.glyphicon-arrow-left');
+
+let images = document.querySelector('#albums');
+let x = 0;
+
+
+
+btnR.addEventListener('click', slider2);
+btnL.addEventListener('click', slider);
+
+
+
+function slider() {
+
+	images.style.marginLeft = x + 'px';
+	x-=300;
+
+	if(x <= -2400) {
+		x = -2270;
+	}
+}
+
+function slider2() {
+	images.style.marginLeft = x + 'px';
+	x+=300;	
+
+	if(x >= 1200) {
+		x = 1100;
+		}	
+}
