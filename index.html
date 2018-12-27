@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 	<head>
-		<title></title>
+		<title>RHCP</title>
 		<meta charset="utf-8" / >
 		<meta name='keywords' content='' />
 		<meta name='description' content='' />
 		<meta name='author' content='Goran Djuric' />
 		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<link rel="icon" type='img/png' href='Images/main_logo.png' />
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<!-- jQuery library -->
@@ -46,8 +47,9 @@
 				</div>
 			</div>
 		</nav>
+
 <!--Image slider-->
-		<div id='slides' class='carousel slide' data-ride='carousel'>
+		<div id='slides' class='carousel slide mb-2' data-ride='carousel'>
 			<ul class='carousel-indicators'>
 				<li data-target='#slides' data-slide-to='0' class='active'></li>
 				<li data-target='#slides' data-slide-to='1'></li>
@@ -66,11 +68,11 @@
 			</div>
 		</div>
 <!--Jumbotron-->
-		<div class='container-fluid mt-3'>
+		<div class='container-fluid mt-3' id='jumbotron'>
 			<div class='row jumbotron'>
 				<div class='col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9'>
 					<p class='lead'>
-					Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1983. The group's musical style primarily consists of rock with an emphasis on funk, as well as elements from other genres such as punk rock and psychedelic rock...
+						Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1983. The group's musical style primarily consists of rock with an emphasis on funk, as well as elements from other genres such as punk rock and psychedelic rock...
 					</p>
 				</div>
 				<div class='col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2'>
@@ -84,7 +86,7 @@
 			</div>
 		</div>
 <!--Previous members-->
-		<div class='container-fluid padding py-4'>
+		<div class='container-fluid padding py-3'>
 			<div class='col-12 text-center'>
 				<h1 class='display-4'>
 					Former members
@@ -92,104 +94,422 @@
 			</div>
 		</div>
 		<hr />
-		<div class='container-fluid padding'>
+		<div class='container-fluid padding' id='cards'>
 			<div class='row padding'>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6 my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/hillel_slovak.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>Hillel Slovak</h4>
+							<p>Years active: 1983, 1984-1988 </p>
 							<p class='card-text'>guitar, backing vokals</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/jack_irons.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>Jack Irons</h4>
-							<p class='card-text'>drums, percussion, backing vocals</p>
+							<p>Years active: 1983, 1986-1988</p>							
+							<p class='card-text'>drums, backing vocals</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/cliff_martinez.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>Cliff Martinez</h4>
+							<p>Years active: 1983-1986</p>							
 							<p class='card-text'>drums, percussion</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/jack_sherman.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>Jack Sherman</h4>
+							<p>Years active: 1983-1984</p>							
 							<p class='card-text'>guitar, backing vocals</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/deWayne_mcKnight.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>DeWayne McKnight</h4>
+							<p>Years active: 1988</p>							
 							<p class='card-text'>guitar</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/d_h_peligro.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>D.H. Peligro</h4>
+							<p>Years active: 1988</p>							
 							<p class='card-text'>drums, percussion</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/arik_marshall.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>Arik Marshall</h4>
+							<p>Years active: 1992-1993</p>							
 							<p class='card-text'>guitar</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/jesse_tobias.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>Jesse Tobias</h4>
+							<p>Years active: 1993</p>							
 							<p class='card-text'>guitar</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/dave_navaro.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>Dave Navarro</h4>
+							<p>Years active: 1993-1998</p>							
 							<p class='card-text'>guitar, backing vocals</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
 				</div>
-				<div class='col-md-3 my-5'>
+				<div class='col-md-3 col-sm-6  my-3'>
 					<div class='card'>
 						<img class='card-img-top' src='Images/john_frusciante.jpg' alt='Not Found!' />
 						<div class='card-body'>
 							<h4 class='card-title'>John Frusciante</h4>
-							<p class='card-text'>guitar, backing vocals, keyboards</p>
+							<p>Years active: 1988-1992,1998-2009</p>							
+							<p class='card-text'>guitar, vocals, keyboards</p>
+							<a href="#" class='btn btn-outline-secondary'>more about</a>
 						</div>
 					</div>
-				</div>
-				
-				
-				
-				
+				</div>	
 			</div>
 		</div>
+
+<!--Active members-->		
+		
+		<div class='container-fluid padding py-5'>
+			<div class='col-12 text-center'>
+				<h1 class='display-4 mb-5' class='font-weight-bold'>
+					Active members
+				</h1>
+				<hr />
+			</div>
+		</div>
+		<div class='container-fluid padding'>
+			<div class='row padding'>
+				<div class='col-12 text-center my-2'>
+					<h1 class='display-6 mb-5' class='font-weight-bold'>
+						Anthony
+					</h1>
+				</div>
+				<div class='col-md-6 col-sm-12 mt-2'>
+					<div class='card'>
+						<img class='card-img-top' src='Images/anthony_kiedis.jpg' alt='Not Found!' />
+						<div class='card-body'>
+							<h4 class='card-title'>Anthony Kiedis</h4>
+							<p>Years active: 1983-</p>							
+							<p class='card-text'>lead vocal</p>
+						</div>
+					</div>
+				</div>	
+				
+				<div class='col-lg-6 col-sm-12'>
+					<p>
+						Anthony Kiedis (/ˈkiːdɪs/ KEE-dis; born November 1, 1962) is an American musician, singer, songwriter, rapper and actor. He is the lead singer of the band Red Hot Chili Peppers, which he has fronted since its conception in 1983. Kiedis and his fellow band members were inducted into the Rock and Roll Hall of Fame in 2012. Kiedis spent his youth in Grand Rapids, Michigan, with his mother before moving, shortly before his twelfth birthday, to Hollywood to live with his father. While attending Fairfax High School, Kiedis developed close friendships with fellow students Flea and Hillel Slovak, who at the time were members of a band called Anthym. After high school, Kiedis began taking classes at UCLA, but dropped out during the beginning of his sophomore year.
+
+						He later received an offer to be the opening act for a local band, and enlisted Flea, Slovak, and drummer Jack Irons to assist. After a show under the name "Tony Flow and the Miraculously Majestic Masters of Mayhem", the band progressed and the line-up eventually became the Red Hot Chili Peppers. He has recorded eleven studio albums with the Red Hot Chili Peppers. Kiedis' lyrical style has evolved throughout his career; early recordings discussed topics such as sex and life in Los Angeles, while more recent songs focus on more reflective themes including love, addiction, and loss. Additionally, his vocal style has shifted from rapping to a more melodic technique. He struggled with drug addiction for the majority of his life up until the year 2000, since then he has remained drug free.
+					</p>
+				</div>
+			</div>
+			<hr class='line' />
+		</div>
+		<div class='container-fluid padding'>
+			<div class='row padding'>
+				<hr />
+				<div class='col-12 text-center mt-2'>
+					<h1 class='display-6 mb-5' class='font-weight-bold'>
+						Flea
+					</h1>
+				</div>
+				<div class='col-lg-6 col-sm-12'>
+					<p>
+					Michael Peter Balzary (born 16 October 1962) known professionally as Flea, is an Australian musician, singer and actor. He is best known as the bassist and founding member of the rock band Red Hot Chili Peppers.
+
+					Flea briefly appeared as the bassist for such bands as What Is This?, Fear, and Jane's Addiction. He has performed with rock 	supergroups Atoms for Peace, Antemasque, Pigface, and Rocket Juice & the Moon, and collaborated with Mars Volta, Johnny Cash, Tom Waits, Alanis Morissette, and Young MC. Flea also performed live with Nirvana in 1993 playing the trumpet.
+
+					Flea incorporates elements of funk (including slap bass), psychedelic, punk, and hard rock. In 2009, Rolling Stone readers ranked Flea the second best bassist of all time, behind only John Entwistle.[1] In 2012, he and the other members of Red Hot Chili Peppers were inducted into the Rock and Roll Hall of Fame.[2]
+
+					Since 1984, Flea has acted in over 20 films and television series such as Suburbia, Back to the Future Part II and Part III, My Own Private Idaho, The Chase, Fear and Loathing in Las Vegas, Dudes, Son in Law, The Big Lebowski, Low Down, Baby Driver and Boy Erased, in addition to voicing the character Donnie Thornberry in The Wild Thornberrys animated television series and films.
+
+					Flea is also the co-founder of Silverlake Conservatory of Music, a non-profit music education organization founded in 2001 for underprivileged children. In 2019 Flea will release his book Acid for the Children: A Memoir which will detail his life prior to the formation of Red Hot Chili Peppers.
+					</p>
+				</div>
+				<div class='col-md-6 col-sm-12 mt-2'>
+					<div class='card'>
+						<img class='card-img-top' src='Images/flea.jpg' alt='Not Found!' />
+						<div class='card-body'>
+							<h4 class='card-title'>Michael Peter Balzary (Flea)</h4>
+							<p>Years active: 1983-</p>							
+							<p class='card-text'>bass player, backing vocals</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<hr class='line' />
+		</div>
+		<div class='container-fluid padding'>
+			<div class='row padding'>
+				<div class='col-12 text-center mt-2'>
+					<h1 class='display-6 mb-5' class='font-weight-bold'>
+						Chad
+					</h1>
+				</div>
+				<div class='col-md-6 col-sm-12 mt-2'>
+					<div class='card'>
+						<img class='card-img-top' src='Images/chad_smith.jpg' alt='Not Found!' />
+						<div class='card-body'>
+							<h4 class='card-title'>Chad Smith</h4>
+							<p>Years active: 1988-</p>							
+							<p class='card-text'>drummer</p>
+						</div>
+					</div>
+				</div>	
+				
+				<div class='col-lg-6 col-sm-12'>
+					<p>
+						Chadwick Gaylord Smith[1] (born October 25, 1961)[2][3] is an American musician who is the current drummer of the band Red Hot Chili Peppers, which he joined in 1988. The group was inducted into the Rock and Roll Hall of Fame in 2012. Smith is also the drummer of the hard rock supergroup Chickenfoot, formed in 2008, and is currently the drummer of the all-instrumental outfit Chad Smith's Bombastic Meatbats, who formed in 2007. As one of the most highly sought-after drummers, Smith has recorded with Glenn Hughes, Johnny Cash, John Fogerty, The Dixie Chicks, Jennifer Nettles, Kid Rock, Jake Bugg, The Avett Brothers, and Joe Satriani. In 2010, joined by Dick Van Dyke and Leslie Bixler, he released Rhythm Train, a critically acclaimed children's album which featured Smith singing and playing various instruments.
+
+						Widely regarded as one of rock music's best drummers, Spin Magazine placed Smith at #10 on their list of the "100 Greatest Drummers of Alternative Music" in May 2013.[4] Readers of UK-based Rhythm magazine ranked Smith and Red Hot Chili Pepper bassist Flea the fourth-greatest rhythm section of all time in their June 2013 issue.[5] The drummer is also known for his charity work especially with young musicians. He has been a lobbyist in support of music education in U.S. public schools. Smith is also widely known for the strong resemblance between himself and comedian Will Ferrell, which has led to various comparisons over the years and eventually led to a joking public feud and drum battle for charity on The Tonight Show Starring Jimmy Fallon in May 2014, which led straight into the Red Hot Chili Peppers performing a cover of Blue Öyster Cult's "(Don't Fear) The Reaper" in the show as a reference to the Saturday Night Live "More Cowbell" skit (in which Ferrell played fictional cowbell player Gene Frenkle).[6][7] Smith is also the host of the PBS concert series, Landmarks Live in Concert, which began in January 2017.
+					</p>
+				</div>
+			</div>
+			<hr class='line' />
+		</div>
+		<div class='container-fluid padding mb-4'>
+			<div class='row padding'>
+				<hr />
+				<div class='col-12 text-center mt-2'>
+					<h1 class='display-6 mb-5' class='font-weight-bold'>
+						Josh
+					</h1>
+				</div>
+				<div class='col-lg-6 col-sm-12'>
+					<p>
+						Josh Adam Klinghoffer (born October 3, 1979) is an American musician best known as the current guitarist for the rock band Red Hot Chili Peppers, with whom he has recorded two studio albums, I'm with You (2011) and The Getaway (2016), and the b-sides compilation, I'm Beside You (2013). Klinghoffer took the place of his friend and frequent collaborator John Frusciante in 2009, after a period as a touring member. Klinghoffer was inducted into the Rock and Roll Hall of Fame with the Red Hot Chili Peppers in 2012, becoming the Hall of Fame's youngest-ever living inductee at age 32, passing Stevie Wonder, who was 38 when he was inducted.[1]
+
+						A multi-instrumentalist, Klinghoffer also fronts the alternative rock band Dot Hacker, a group made up of former touring members of Gnarls Barkley, of which Klinghoffer was a member from 2006-2008. He is also a former member of the bands Ataxia, Warpaint and The Bicycle Thief. Klinghoffer most commonly plays guitar or drums, and sings backup as well as lead vocals. He has also both recorded and toured as a session musician with notable artists including PJ Harvey, Beck, the Butthole Surfers, Vincent Gallo, Sparks and Golden Shoulders.
+					</p>
+				</div>
+				<div class='col-md-6 col-sm-12 mt-2'>
+					<div class='card'>
+						<img class='card-img-top' src='Images/josh.jpg' alt='Not Found!' />
+						<div class='card-body'>
+							<h4 class='card-title'>Josh Klinghoffer</h4>
+							<p>Years active: 2009-</p>							
+							<p class='card-text'>guitar player, backing vocals</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+
+<!--Discography-->
+		
+		<hr />
+		<div class='container-fluid padding py-4'>
+			<div class='col-12 text-center'>
+				<h1 class='display-5 mb-5' class='font-weight-bold'>
+					Discography
+				</h1>
+			</div>
+		</div>
+		<div class='container-fluid' id='jumbotron'>
+			<div class='row jumbotron'>
+				<div class='col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9'>
+					<p class='lead'>
+						The American funk rock band Red Hot Chili Peppers since 1984 has released eleven studio albums, three live albums, 12 compilation albums, eight video albums, five extended plays, 44 singles, and 47 music videos. To date, the band has sold over 80 million albums worldwide...
+					</p>
+				</div>
+				<div class='col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2'>
+					<p class='lead'>
+						...for full list click the button below
+					</p>
+					<a href="https://en.wikipedia.org/wiki/Red_Hot_Chili_Peppers_discography" target='blank'>
+						<button type='button' class='btn btn-outline-secondary bt-lg'>Click</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class='container-fluid padding py-4'>
+			<div class='col-12 text-center'>
+				<h1 class='display-6 my-1' class='font-weight-bold'>
+					Studio albums
+				</h1>
+			</div>
+		</div>
+		<div class="container-fluid mt-5" id='albums'>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top" src="Images/Albums/album_1.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">The Red Hot Chili Peppers</p>
+						<p>1984</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_2.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">Freaky Styley</p>
+						<p>1985</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_3.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">The Uplift Mofo Party Plan</p>
+						<p>1987</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_4.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">Mother's Milk</p>
+						<p>1989</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_5.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">Blood Sugar Sex Magik</p>
+						<p>1991</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_6.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">One Hot Minute</p>
+						<p>1995</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_7.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">Californication</p>
+						<p>1999</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_8.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">By the Way</p>
+						<p>2002</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_9.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">Stadium Arcadium</p>
+						<p>2006</p>	
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_10.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">I'm with You</p>
+						<p>2001</p>
+					</div>
+				</div>
+			</div>
+			<div class='albums'>
+				<div class='card'>
+					<img class="card-img-top"  src="Images/Albums/album_11.jpg" alt="Not Found!" />
+					<div class='card-body'>
+						<p class="card-title">The Getaway</p>
+						<p>2017</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid mt-4">
+			<button type="button" class="btn btn-info btn-lg mr-auto">
+          		<span class="glyphicon glyphicon-arrow-left">Left</span>
+        	</button>
+        	<button type="button" class="btn btn-info btn-lg" style='float: right;'>
+          		<span class="glyphicon glyphicon-arrow-right">Right</span>
+        	</button>
+        </div>
+        <div class='container-fluid padding py-4'>
+			<hr />
+			<div class='col-12 text-center'>
+				<h1 class='display-5 my-1' class='font-weight-bold'>
+					Rest of the discography is comming.....
+				</h1>
+			</div>
+			<hr />
+		</div>
+
+<!--footer-->
+
+	<footer>
+		<div class='container-fluid padding'>
+			<div class='row text-center'>
+				<div class="col-12">
+					<a class='navbar-brand ' href='index.html'>
+						<img alt='Not found!' src='Images/main_logo.png' id='main_logo' />
+					</a>
+					<hr class="light">
+					<p>065/28-92-061</p>
+					<p>gdjuric1989@gmail.com</p>
+					<p>100 Street Name</p>
+					<p>City, State, 0000</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 		<script src='main.js'></script>
 	</body>
 </html>
