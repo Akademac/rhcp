@@ -15,12 +15,10 @@ body {
 	overflow-x: hidden;
 }
 
-
 #main_logo {
 	width: 45px;
 	height: 45px;
 }
-
 
 .instruments {
 	width: 37px;
@@ -37,7 +35,6 @@ body {
 	height: 100%;
 }
 
-
 #cards  img {
 	height: 300px;
 }
@@ -47,13 +44,20 @@ body {
 	background-attachment: scroll;
 }
 
+#albums {
+	overflow-x: hidden;
+}
+
+.albums {
+	position: fixed;
+}
+
 .albums, #albums {
 	display: inline-block; 
 	white-space: nowrap;
 	opacity: .9;
 	position: relative;
 	margin-left: 0px;
-	
 }
 
 .albums {
@@ -70,17 +74,14 @@ p.card-title {
 	font-weight: bold;
 }
 
-
 .btn-primary {
 	background-color: lightblue;
 }
-
 
 .btn-primary:hover {
 	background-color: #653d7c;
 	border: 1px solid #563d7c;
 }
-
 
 .jumbotron {
 	padding: 1rem;
@@ -97,14 +98,12 @@ p.card-title {
 	padding-top: 2rem;
 }
 
-
 .welcome hr {
 	border-top: 2px solid #b4b4b4;
 	width: 95%;
 	margin-top: .3rem;
 	margin-bottom: 1rem;
 }
-
 
 footer {
 	background-color: #3f3f3f;
@@ -113,7 +112,6 @@ footer {
 
 }
 
-
 hr.light {
 	border-top: 1px solid #d5d5d5;
 	width: 75%;
@@ -121,7 +119,6 @@ hr.light {
 	margin-bottom: 1rem;
 
 }
-
 
 hr.line {
 	width: 50%;
