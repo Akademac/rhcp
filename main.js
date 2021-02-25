@@ -145,8 +145,8 @@ btnL.addEventListener('click', slider);
 
 function slider() {
 
-	images.style.marginLeft = x + 'px';
 	x-=300;
+	images.style.marginLeft = x + 'px';
 
 	if(x <= -2400) {
 		x = -2270;
@@ -154,8 +154,9 @@ function slider() {
 }
 
 function slider2() {
-	images.style.marginLeft = x + 'px';
 	x+=300;	
+	images.style.marginLeft = x + 'px';
+
 
 	if(x >= 1200) {
 		x = 1100;
